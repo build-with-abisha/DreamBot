@@ -31,7 +31,7 @@ const page = () => {
 
   return (
     <>
-    <section className="bg-[url('/Background.png')] bg-cover bg-center w-full min-h-screen flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-16 lg:px-24 xl:px-28 py-20">
+    <section className="bg-[url('/background.png')] bg-cover bg-center w-full min-h-screen flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-16 lg:px-24 xl:px-28 py-20">
       
       {/* Text Content */}
       <motion.div initial={{x:-100, opacity:0}} whileInView={{x:0, opacity:1, transition:{duration:0.8, delay:0.2}}} viewport={{once:true}} className="flex flex-col gap-8 md:gap-12 md:w-1/2 animate-[fadeInLeft_1s_ease forwards]">
