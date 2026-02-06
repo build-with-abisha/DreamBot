@@ -15,10 +15,10 @@ export async function POST(req) {
     });
 
     await transporter.sendMail({
-      from: `"Contact Form" <${process.env.EMAIL_USER}>`,
+      from: `"Dreambot Contact Form" <${process.env.EMAIL_USER}>`,
       to: process.env.EMAIL_USER,
       replyTo: email,
-      subject: `Contact Form: ${subject}`,
+      subject: `Dreambot Contact Form: ${subject}`,
       html: `
         <h3>New Contact Message</h3>
         <p><b>Name:</b> ${name}</p>
